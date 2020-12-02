@@ -1,0 +1,104 @@
+/*Header*/
+
+body{
+	overflow: auto;
+	background: #f5dff5;
+}
+header{
+	background-color: white;
+}
+.selected a{
+	color:  #FDDF2F;
+	font-weight: bold;
+}
+.center{
+background: #f5dff5;
+}
+.ass{
+	float: right;
+	font-size: 13pt;
+	margin: 15px 10px;
+}
+.img-left{
+	float: left;
+	width: 30%;
+    position: absolute;
+    height: 100%;
+    background-image: url(../images/guitar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-right{
+	width: 10%;
+    position: absolute;
+    height: 100vh;
+    background-image: url(../images/img-feet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+	float: right;
+	width: 80%;
+	padding: 0 150px;
+	padding-top: 100px;
+	text-align: left;
+}
+.text h2{
+	font-size: 35pt;
+	color: #e75f6b;
+}
+.text a{
+	color: white;
+	font-size: 18pt;
+	text-decoration-style: none;
+}
+.about-btn{
+	width: 300px;
+	background-color:  #e75f6b;
+	border: 0;
+}
+.about-btn h3{
+	font-size: 18pt;
+	color: white;
+	display: inline-block;
+	margin-left: 8px;
+}
+.text p{
+	font-size: 19pt;
+	margin: 15px 0;
+}
+.call-play{
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+	margin: 130px 0;
+	z-index: 3;
+	position: relative;
+}
+ .call-play h3{
+		margin-bottom: 18px;
+		color: #ede8ee;
+}
+.call-play h2{
+	font-size: 27pt;
+		color: #ede8ee;
+}
+
+.call-play h3{
+	font-size: 12pt;
+}
+
+/*mini footer*/
+.icons{
+	float: left;
+}
+footer{
+	z-index: 3;
+	text-align: right;
+	position: absolute;
+	bottom: 5px;
+	left: 20px;
+}
+

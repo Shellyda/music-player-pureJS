@@ -1,0 +1,293 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Barlow', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+html, body{
+	height: 100%;
+}
+
+input, textarea{
+-webkit-apperance: none;
+-moz-apperance: none;
+apperance: none;
+}
+
+/***/
+
+/*Header*/
+.selected a{
+	color:  #FDDF2F;
+	font-weight: bold;
+}
+.logo{
+	float: left;
+	margin: 30px 0;
+}
+a#logo{
+	color: black;
+}
+.logo img{
+	width: 15%;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+.logo h1{
+	font-size: 30pt;
+}
+
+nav{
+	float: right;
+	margin: 28px 0;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #231a29;
+	font-size: 15pt;
+}
+
+.btn{
+	background-color: white;
+	border: 2px solid #ccc;
+	padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sing-in a{
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.sing-in{
+	border: 2px solid #e75f6b;
+}
+.sing-up a{
+	color: white;
+	padding: 15px;
+	font-weight: bold;
+}
+.sing-up{
+	border: none;
+	background-color: #e75f6b;
+}
+
+/*Background and call to action*/
+.layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.4);
+	z-index: 1;
+}
+
+div.bg{
+	background-color: #ccc;
+	position: absolute;
+    width: 100%;
+    height: auto;
+	background-image: url(../images/group-2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.call-play{
+	float: left;
+	width: 500px;
+	margin: 100px 0;
+	z-index: 3;
+	position: relative;
+}
+ .call-play h3, .call-play p{
+		margin-bottom: 18px;
+		color: #ede8ee;
+}
+.call-play h2{
+	font-size: 27pt;
+		color: #ede8ee;
+}
+
+.call-play h3{
+	font-size: 15pt;
+}
+
+.call{
+	width: 200px;
+	text-align: center;
+	background: #FDDF2F;
+	border: none;
+	transition: 0.4s;
+}
+
+.call a{
+	text-decoration: none;
+	font-size: 18pt;
+	font-weight: bold;
+	color: #231A29;
+}
+
+.call:hover{
+transform: scale(1.2, 1.2);
+}
+
+/*SLIDE */
+.slide-wraper{
+	position: relative;
+	z-index: 3;
+	float: right;
+	margin-top: 40px;
+}
+.slide-single{
+position: relative;
+background-color: #141f27;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: -2px -1px;
+width: 400px;
+height: 160px;
+margin-bottom: 20px;
+}
+
+/**MOSAICO**/
+.mosaico{
+	z-index: 3;
+	float: right;
+	width: 50%;
+	margin-top: 40px;
+    text-align: -webkit-center;
+}
+
+.mosaico-wraper{
+	z-index: 3;
+	width: 90%;
+}
+.mosaico-single{
+	z-index: 3;
+	width: 50%;
+	height: 100%;
+}
+
+.img-mosaico-single{
+	/*transformando em um quadrado responsivo*/
+	z-index: 3;
+	width: 400px;
+	height: 160px;
+	background-color: #141f27;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -2px -1px;
+	margin-bottom: 10px;
+	background-image:url('../images/tweet-04.jpg');
+}
+	.slick-dotted ul{
+		list-style-type: none;
+		text-align: center;
+		position: relative;
+		margin-top: 25px;
+	    margin-bottom: 20px;
+	}
+
+	.slick-dotted li{
+		display: inline-block;
+		margin:0 7px;
+	}
+
+	.slick-dotted button:focus{
+		outline: 0;
+	}
+
+	.slick-dotted li button{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		color: #FDDF2F;
+		border-width: 0;
+		background: #FDDF2F;
+		opacity: 1;
+		cursor: pointer;
+	}
+
+	li.slick-active button{
+		background: #231A29;
+		color: #231A29;
+	}
+
+.slick-slide:focus{outline: none;}/* estilo para que não apareça q nosso slide foi selecionado */
+
+/*Assests - next and prev */
+.slick-next{
+	cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 249px;
+    bottom: 308px;
+    z-index: 3;
+    border:none;
+}
+.slick-prev{
+	left: -24px;
+	cursor: pointer;
+    position: absolute;
+    top: 250px;
+    z-index: 3;
+    border: none;
+    border-radius: 10px;
+}
+.arrows{
+	font-size: 22pt;
+	position: absolute;
+}
+.fa-arrow-circle-left{
+left: 10px;
+}
+.fa-arrow-circle-left, .fa-arrow-circle-right{
+	color: white;
+}
+/****/
+
+/*mini footer*/
+.icons h3{
+	display: inline-block;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.icons a{
+	color:  #FDDF2F;
+	font-size: 22pt;
+}
+.icons p{
+	font-size: 13pt;
+	margin: 3px 0; 
+	color: white;
+}
+
+footer{
+	z-index: 3;
+	text-align: right;
+	position: absolute;
+	bottom: 23px;
+	left: 40px;
+}
