@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.player.css">
+	<title>Web Jukebox | Player</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/play.ico" >
+
+</head>
+<body>
+<section class="player">
+	<div class="container">
+	<div class="player-box">
+		<div class="card-options">
+			<ul class="card-music">
+				<div class="top-playlist">
+				<h4>Hello, Juliana!</h4>
+				<h2>Your Playlist</h2>
+				<p>Was made for you in 11/11/20</p>
+                </div>
+				<li id="start">
+					<h3>playing now</h3>
+					<h1>nome da musica</h1>
+				     | <div class="time" id="totalduration">00:00</div> 
+					<p id="options">artista</p>
+				</li>
+				<li id="second">
+					<h3>Just for you</h3>
+					<h1>nome da musica</h1>
+					| <div class="time" id="totalduration">00:00</div> 
+					<p>artista</p>
+				</li>
+				<li>
+					<h3>This is your face</h3>
+					<h1>nome da musica</h1>
+					<p>artista</p>
+				</li>
+				<li>
+					<h3>Sooo you</h3>
+					<h1>nome da musica</h1>
+					<p>artista</p>
+				</li>
+				<li>
+					<h3>Just for you</h3>
+					<h1>nome da musica</h1>
+					<p>artista</p>
+				</li>
+				<li>
+					<h3>Just for you</h3>
+					<h1>nome da musica</h1>
+					<p>artista</p>
+				</li>
+			</ul>
+		</div><!-- options -->
+		<div class="card-image"></div>
+		<div class="card-content">
+			<div class="btn-play" id="btn-play">
+           <div class="img-play" id="play"></div><!-- img-play -->
+       	   </div><!-- btn-play -->
+			<h1></h1>
+            <p class="artist"></p>
+            <div class="buttons">
+            <div class="time" id="current-duration">00:00</div>
+            <div class="seekbar">
+            	<input type="range" min="0" max="0" id="seekbar" step="1">
+            </div><!-- seekbar -->
+            <div class="time total" id="total-duration">00:00</div> 
+            <div class="seekbar-vol">
+            <div class="button-volume-up">
+            		<h3><i class="fa fa-volume-up" aria-hidden="true" id="vol"></i></h3>
+            </div><!-- button volume -->  
+            	<input type="range" min="0" max="100" step="1" id="seekbar-volume" step="1">
+            </div><!-- seekbar --> 
+            </div><!--buttons-->  
+            <div class="clear"></div>     	 
+		</div><!-- card-content -->
+	</div><!-- player box -->
+</div>
+</section>
+<script src="elements/data.js"></script>
+<script src="elements/player-oop.js"></script>
+<script src="elements/player.js"></script>
+<script src="elements/index.js"></script>
+</body>
+</html>
