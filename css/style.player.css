@@ -20,19 +20,36 @@ font-family: 'Barlow', sans-serif;
 
 html, body{
 	height: 100%;
-	background-color: #B594B6;
+	background: rgb(247,238,108);
+background: radial-gradient(circle, rgba(247,238,108,1) 38%, rgba(214,119,230,1) 75%);
 }
 
-/*
-Evitando que os navegadores modifiquem o estilo dos nossos input's e textareas:
- */
-
-
-/***/
 header{
-	padding: 15px;
-	text-align: right;
+	padding: 10px;
+	text-align: left;
 }
+.assets-wraper{
+	position: relative;
+	float: right;
+	top: -12px;
+	right: 30px;
+}
+.assets-ford, .assets-back{
+	display: inline-block;
+	background-image: url('../assets/forward.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 22px;
+	height: 22px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+.assets-back{
+	background-image: url('../assets/backward.svg');
+}
+
 .player-box{
 	position: absolute;
 	text-align: center;
@@ -68,7 +85,7 @@ header{
 	overflow-y: auto;
     padding-top: 53%;
     float: right;
-    border-top: 10px solid goldenrod;
+    border-top: 10px solid#C85689;
     border-top-right-radius: 18px; 
     position: absolute;
     right: 0;
@@ -86,6 +103,7 @@ background-color: #161616;
 height: auto;
 list-style-type: none;
 transition: 0.2s;
+font-size: 13px;
 }
 #start h1{
 	color: #C85689;
@@ -110,11 +128,11 @@ ul.card-music li{
 	cursor: pointer;
 	width: 100%;
 	border-bottom: 1px solid #666666;
-	padding: 16px;
+	padding: 10px;
 }
 ul.card-music .top-playlist{
 	padding: 25px;
-	border-bottom: 1px solid #666666;
+	background-color: black;
 }
 
 ul.card-music h2{
@@ -150,6 +168,15 @@ float: left;
 	height: auto;
 	text-align: right;
 	padding: 20px;
+}
+
+.artist{
+	font-size: 12pt;
+	margin-left: 55px;
+}
+.button-volume-up{
+	position: relative;
+	bottom: -3px;
 }
 
 input[type="range"] {
@@ -216,15 +243,14 @@ input[type=range]::-ms-thumb {
 
 
 ::-webkit-scrollbar {
- width: 11px;
- height: 11px;
+ width: 8px;
+ height: 8px;
 }
 ::-webkit-scrollbar-thumb {
  background:#787870;
- border-radius: 0px;
+ border-radius: 4px;
 }
 ::-webkit-scrollbar-track{
  background: #ffffff;
- border-radius: 0px;
- box-shadow: inset 7px 10px 12px #f0f0f0;: 0px;
+ border-radius: 4px;
 }

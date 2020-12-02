@@ -51,6 +51,8 @@ next(){
 update(){
 this.currentAudio = this.audioData[this.currentPlaying]
 
+this.beforePlay = document.querySelector('.assets-back')
+this.nextPlay = document.querySelector('.assets-ford')
 this.cover.style.background = `url('${path(this.currentAudio.cover)}') no-repeat center center / cover`
 this.title.innerText = this.currentAudio.title
 this.artist.innerText = this.currentAudio.artist
@@ -77,8 +79,26 @@ if(this.currentPlaying == this.audioData.length){
 },
 createAudioElement(audio){
 	this.audio = new Audio(audio)
-}, 
+},
+forward(){
+this.audio.pause()
+this.currentPlaying++
+this.update()
+if(this.isPlaying == true){
+this.audio.play()
+}
+},
+backward(){
+this.audio.pause()
+this.currentPlaying--
+this.update()
+if(this.isPlaying == true){
+this.audio.play()
+}
+},
 actions(){
+  this.beforePlay.onclick= () => this.backward()
+  this.nextPlay.onclick= () => this.forward()
   this.playPause.onclick = () => this.togglePlayPause()
   this.vol.onclick = () => this.toggleMute()
   this.volumeControl.oninput = () => this.setVolume(this.volumeControl.value)

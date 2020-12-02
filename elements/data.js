@@ -13,4 +13,18 @@ window.audios = [
 	file: "piccolo-and-a-cane.mp3",
 	duration: "03:24"
 },
+{
+	title: "Less I Know The Better",
+	artist: "Tame Impala",
+	cover: "m3.png",
+	file: "piccolo-and-a-cane.mp3",
+	duration: "03:36"
+},
+{
+	title: "The Less I Know The Better",
+	artist: "Tame Impala",
+	cover: "m3.png",
+	file: "piccolo-and-a-cane.mp3",
+	duration: "03:36"
+}
 ]

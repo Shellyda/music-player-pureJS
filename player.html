@@ -4,6 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style.player.css">
 	<title>Web Jukebox | Player</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,6 +15,7 @@
 <body>
 <section class="player">
 	<div class="container">
+		<header><a href="index.html" id="logo"><div class="logo"><h1>WJ<img src="assets/play.svg"></h1></div></a><!-- logo --></header>
 	<div class="player-box">
 		<div class="card-options">
 			<ul class="card-music">
@@ -23,35 +25,39 @@
 				<p>Was made for you in 11/11/20</p>
                 </div>
 				<li id="start">
-					<h3>playing now</h3>
+					<h3>Playing now</h3>
 					<h1>nome da musica</h1>
 				     | <div class="time" id="totalduration">00:00</div> 
 					<p id="options">artista</p>
 				</li>
 				<li id="second">
 					<h3>Just for you</h3>
-					<h1>nome da musica</h1>
-					| <div class="time" id="totalduration">00:00</div> 
-					<p>artista</p>
+					<h1>A Piccolo and a Cane</h1>
+					| <div class="time" id="totalduration">03:24</div> 
+					<p>Tommy Dorsey</p>
 				</li>
 				<li>
 					<h3>This is your face</h3>
-					<h1>nome da musica</h1>
-					<p>artista</p>
+					<h1>The Less I Know The Better</h1>
+					| <div class="time" id="totalduration">03:36</div> 
+					<p>Tame Impala</p>
 				</li>
 				<li>
 					<h3>Sooo you</h3>
 					<h1>nome da musica</h1>
+					 | <div class="time" id="totalduration">00:00</div> 
 					<p>artista</p>
 				</li>
 				<li>
 					<h3>Just for you</h3>
 					<h1>nome da musica</h1>
+					 | <div class="time" id="totalduration">00:00</div> 
 					<p>artista</p>
 				</li>
 				<li>
 					<h3>Just for you</h3>
 					<h1>nome da musica</h1>
+					 | <div class="time" id="totalduration">00:00</div> 
 					<p>artista</p>
 				</li>
 			</ul>
@@ -63,6 +69,11 @@
        	   </div><!-- btn-play -->
 			<h1></h1>
             <p class="artist"></p>
+            <div class="assets-wraper">
+            <div class="assets-back"></div><!-- back -->
+            <div class="assets-ford"></div><!-- ford -->
+            </div><!-- assets-wraper -->
+            <div class="clear"></div> 
             <div class="buttons">
             <div class="time" id="current-duration">00:00</div>
             <div class="seekbar">
@@ -79,6 +90,7 @@
             <div class="clear"></div>     	 
 		</div><!-- card-content -->
 	</div><!-- player box -->
+	<footer><h4>Made with < / > and <3 by Shellyda</h4></footer>
 </div>
 </section>
 <script src="elements/data.js"></script>
