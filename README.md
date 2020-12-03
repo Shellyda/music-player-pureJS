@@ -48,7 +48,7 @@ Knowledge available to be able to take the challenge:
 # Gists
 - [Constants and Variables](https://gist.github.com/jrmmendes/51c5e833860fdc942d7f3e5f1fb17d3a#file-const-var-let-md)
 - [DOM and Queries with JS](https://gist.github.com/jrmmendes/51c5e833860fdc942d7f3e5f1fb17d3a#file-document-object-model-md)
-- [Eventos](https://gist.github.com/jrmmendes/51c5e833860fdc942d7f3e5f1fb17d3a#file-events-md)
+- [Events](https://gist.github.com/jrmmendes/51c5e833860fdc942d7f3e5f1fb17d3a#file-events-md)
 
 # Resources
 - [MDN Web Docs](https://developer.mozilla.org/pt-BR)
