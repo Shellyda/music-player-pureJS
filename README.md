@@ -14,7 +14,7 @@ Because of the time i didn't get all functionalities that i imagined to work app
 - You can find the application requested in the **player.html** file 
 - The home for this portfolio is located in the **index.html** file
 - All JavaScript code that i did for this player is in the folder named **elements** and the css code is in the *css folder* with the name *style.player.css*
-- the musics and images used in this player are in the **files** and **assets** folders
+- The musics and images used in this player are in the **files** and **assets** folders
 - **Note:** you can access the player page by clicking on the buttons on the other pages of the portfolio, as well as going from one page to another by navigating through the menu. 
 
 
