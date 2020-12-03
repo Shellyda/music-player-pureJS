@@ -21,8 +21,22 @@ window.audios = [
 	duration: "03:36"
 },
 {
-	title: "The Less I Know The Better",
-	artist: "Tame Impala",
+	title: "Miracles",
+	artist: "Coldplay, Big Sean",
+	cover: "m3.png",
+	file: "piccolo-and-a-cane.mp3",
+	duration: "03:36"
+},
+{
+	title: "Madagascar",
+	artist: "Edy Lemond",
+	cover: "m3.png",
+	file: "piccolo-and-a-cane.mp3",
+	duration: "03:36"
+},
+{
+   	title: "New Light",
+	artist: "John Mayer",
 	cover: "m3.png",
 	file: "piccolo-and-a-cane.mp3",
 	duration: "03:36"

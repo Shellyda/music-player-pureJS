@@ -83,13 +83,10 @@ header{
 .card-options{
 	width: 55%;
 	overflow-y: auto;
-    padding-top: 53%;
-    float: right;
-    border-top: 10px solid#C85689;
-    border-top-right-radius: 18px; 
+	height: 100%;
     position: absolute;
     right: 0;
-    top: 21px;
+    top: 0px;
    background-color: #161616;
 }
 
@@ -253,4 +250,107 @@ input[type=range]::-ms-thumb {
 ::-webkit-scrollbar-track{
  background: #ffffff;
  border-radius: 4px;
+}
+
+
+@media screen and (max-width: 1200px){
+.buttons{
+	text-align: left;
+	font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 1060px){
+ul.card-music{
+	font-size: 12px;
+}
+.buttons{
+	font-size: 12px;
+	padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 990px){
+body{
+	overflow-y: auto;
+}
+.card-image{
+	width: 80%;
+    padding-top: 55%;
+    margin: 0 auto;
+}
+
+.card-content{
+	margin: 0 auto;
+	width: 80%;
+	padding: 20px;
+}
+.card-options{
+	width: 80%;
+    height: 62%;
+    right: 56px;
+    top: 508px;
+}
+
+footer{
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 880px){
+.card-options{
+	width: 80%;
+    height: 62%;
+    right: 50px;
+    top: 484px;
+}
+
+}
+
+
+@media screen and (max-width: 880px){
+
+.card-image{
+	width: 80%;
+    padding-top: 60%;
+    margin: 0 auto;
+}
+
+.card-options{
+	display: none;
+}
+
+}
+
+
+@media screen and (max-width: 680px){
+
+.card-image{
+	width: 85%;
+    padding-top: 80%;
+}
+
+.card-content{
+	margin: 0 auto;
+	width: 85%;
+}
+}
+
+@media screen and (max-width: 550px){
+
+.card-image{
+	width: 98%;
+    padding-top: 80%;
+}
+
+.card-content{
+	width: 98%;
+}
+
+.logo{
+	display: none;
+}
 }
