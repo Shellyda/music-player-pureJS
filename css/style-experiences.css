@@ -191,7 +191,6 @@ margin-bottom: 20px;
 }
 
 .img-mosaico-single{
-	/*transformando em um quadrado responsivo*/
 	z-index: 3;
 	width: 400px;
 	height: 160px;
@@ -200,7 +199,18 @@ margin-bottom: 20px;
 	background-repeat: no-repeat;
 	background-position: -2px -1px;
 	margin-bottom: 10px;
-	background-image:url('../images/tweet-04.jpg');
+}
+.bg-0{
+	background-image:url('../images/tweet-01.jpg');
+}
+.bg-02{
+	background-image: url('../images/tweet-02.jpg');
+}
+.bg-03{
+	background-image: url('../images/tweet-04.jpg');
+}
+.bg-08{
+	background-image: url('../images/tweet-08.jpg');
 }
 	.slick-dotted ul{
 		list-style-type: none;
