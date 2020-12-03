@@ -4,7 +4,7 @@ window.audios = [
 	artist: "Vedo",
 	cover: "vedo.jpg",
 	file: "vedo.mpeg",
-	duration: "03:24"
+	duration: "03:50"
 },
 {
 	title: "A Piccolo and a Cane",
