@@ -42,7 +42,7 @@ Knowledge available to be able to take the challenge:
 - How to program object-oriented with classes ES6;
 
 - Mockup: [Challenge JS](https://www.figma.com/file/UWCyOMrpFhyrVDiYHDS3By/desafio-js?node-id=0%3A1)
-- Exemplo básico: https://citi-player.netlify.com/
+- Basic Exemple: https://citi-player.netlify.com/
 
 
 # Gists
