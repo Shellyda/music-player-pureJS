@@ -207,10 +207,25 @@ margin-bottom: 20px;
 	background-image: url('../images/tweet-02.jpg');
 }
 .bg-03{
+	background-image: url('../images/tweet-03.jpg');
+}
+.bg-04{
 	background-image: url('../images/tweet-04.jpg');
+}
+.bg-05{
+	background-image: url('../images/tweet-05.jpg');
+}
+.bg-06{
+	background-image: url('../images/tweet-06.jpg');
+}
+.bg-07{
+	background-image: url('../images/tweet-07.jpg');
 }
 .bg-08{
 	background-image: url('../images/tweet-08.jpg');
+}
+.bg-09{
+	background-image: url('../images/tweet-09.jpg');
 }
 	.slick-dotted ul{
 		list-style-type: none;
