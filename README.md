@@ -53,3 +53,6 @@ Knowledge available to be able to take the challenge:
 # Resources
 - [MDN Web Docs](https://developer.mozilla.org/pt-BR)
 - [Notion](https://www.notion.so/Js-2-a66831b9b73c4ecd8f4c4d3e8ce41f51)
+
+02/12/20
+### CITi UFPE | PTA 2020.2 | JS challenge 
