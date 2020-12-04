@@ -11,7 +11,7 @@ I made like a portfolio for it, i tried to explore my creativity hehe
 Because of the time i didn't get all functionalities that i imagined to work appropriately, but everthing that was request in the challenge is done!  
 
 ### How to test:
-- You can find the application requested in the **player.html** file 
+- You can find the application requested in the [player.html](https://shellyda.github.io/Music-Player-js/player.html) file 
 - The home for this portfolio is located in the **index.html** file
 - All JavaScript code that i did for this player is in the folder named **elements** and the css code is in the *css folder* with the name *style.player.css*
 - The musics and images used in this player are in the **files** and **assets** folders
