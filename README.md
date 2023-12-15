@@ -10,8 +10,8 @@ Greetings! I trust this message finds you well. In response to a recent challeng
 
 ## Project Overview
 
-- **Application:** [Music Player](https://shellyda.github.io/Music-Player-js/player.html)
-- **Portfolio Home:** [Index.html](https://shellyda.github.io/Music-Player-js/)
+- **Application:** [Music Player](https://shellyda.github.io/music-player-pureJS/player.html)
+- **Portfolio Home:** [Index.html](https://shellyda.github.io/music-player-pureJS/)
 - **JavaScript Code:** Located in the **elements** folder; CSS code in *css/style.player.css*.
 - **Media Assets:** Music and images reside in the **files** and **assets** folders, respectively.
 - **Navigation:** Access the player page via buttons on other portfolio pages or navigate through the menu.
@@ -33,7 +33,7 @@ Crafted with </> and <3, this project is more than code; it's an expression of c
 
 ### *No more talking, just press play!*
 
-- [Portfolio Link](https://shellyda.github.io/Music-Player-js/)
+- [Portfolio Link](https://shellyda.github.io/music-player-pureJS/)
 
 ## Challenge Objectives
 
