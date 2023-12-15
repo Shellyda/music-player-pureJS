@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="https://i.imgur.com/jOeqrIs.png" alt="Music Player Logo"/>
-</p>
 
 # Music Streaming Platform Portfolio
+<img width="1440" alt="Screenshot 2023-12-15 at 01 14 33" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/7d01493d-1523-4608-a4a8-854e87424145">
 
 ## Introduction
 
@@ -15,6 +13,7 @@ Greetings! I trust this message finds you well. In response to a recent challeng
 - **JavaScript Code:** Located in the **elements** folder; CSS code in *css/style.player.css*.
 - **Media Assets:** Music and images reside in the **files** and **assets** folders, respectively.
 - **Navigation:** Access the player page via buttons on other portfolio pages or navigate through the menu.
+- **Responsiveness:** Only the music player screen has responsive behavior.
 
 ## Usage Instructions
 
@@ -27,7 +26,15 @@ Greetings! I trust this message finds you well. In response to a recent challeng
 - Interact with the player through buttons on portfolio pages.
 - Navigate seamlessly between pages using the menu.
 
-## Enjoy the Experience!
+## Image gallery
+| Music Player screen                            |  Responsive look music player                               | 
+|-------------------------------------------|-----------------------------------------------|
+| ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/536c108c-b464-4c10-811d-33c74ad7fb85) |![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/d9f71331-1198-4bbe-8db0-b48d28b11db4)    | 
+
+| About screen                            | Experiences screen                                 | 
+|-------------------------------------------|-----------------------------------------------|
+| ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/12906723-4d5a-4b05-8e17-0c4592496c9c) | ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/599af21f-741b-49db-aa86-ba3ad8058f0a")     | 
+
 
 Crafted with </> and <3, this project is more than code; it's an expression of creativity and passion for music.
 
@@ -69,3 +76,6 @@ To tackle this challenge, familiarity with the following is essential:
 **Date:** 02/12/20
 
 **Organization:** CITi UFPE | PTA 2020.2 | JS Challenge
+
+----
+  <img src="https://i.imgur.com/jOeqrIs.png" alt="Music Player Logo"/>
