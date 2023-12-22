@@ -1,6 +1,5 @@
-
-# Music Streaming Platform Portfolio
-<img width="1440" alt="Screenshot 2023-12-15 at 01 14 33" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/7d01493d-1523-4608-a4a8-854e87424145">
+<img width="1418" alt="Screenshot 2023-12-22 at 01 13 42" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/d27eddcb-cbe2-403a-8a35-057e3ee632cc"><img width="1418" alt="Screenshot 2023-12-22 at 01 13 42" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/8107ab03-cfd1-447f-8098-d2c17d2973db"># Music Streaming Platform Portfolio
+<img width="1438" alt="Screenshot 2023-12-22 at 01 06 52" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/981338cd-f343-453e-822e-b2ec0a3b0ca2">
 
 ## Introduction
 
@@ -33,7 +32,7 @@ Greetings! I trust this message finds you well. In response to a recent challeng
 
 | About screen                            | Experiences screen                                 | 
 |-------------------------------------------|-----------------------------------------------|
-| ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/12906723-4d5a-4b05-8e17-0c4592496c9c) | ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/599af21f-741b-49db-aa86-ba3ad8058f0a")     | 
+| ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/211fbcd0-96c2-4d7e-954f-6e7f23368509) |  ![](https://github.com/Shellyda/music-player-pureJS/assets/69990297/433d4fe8-3858-4d8e-afc1-bbf436028b06)   | 
 
 
 Crafted with </> and <3, this project is more than code; it's an expression of creativity and passion for music.
