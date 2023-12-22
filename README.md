@@ -1,4 +1,4 @@
-<img width="1418" alt="Screenshot 2023-12-22 at 01 13 42" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/d27eddcb-cbe2-403a-8a35-057e3ee632cc"><img width="1418" alt="Screenshot 2023-12-22 at 01 13 42" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/8107ab03-cfd1-447f-8098-d2c17d2973db"># Music Streaming Platform Portfolio
+# Music Streaming Platform Portfolio
 <img width="1438" alt="Screenshot 2023-12-22 at 01 06 52" src="https://github.com/Shellyda/music-player-pureJS/assets/69990297/981338cd-f343-453e-822e-b2ec0a3b0ca2">
 
 ## Introduction
